@@ -128,7 +128,7 @@ h3 a:hover {
 .art-me {
   display: none;
   height: 650px;
-  margin-top: -200px;
+  margin-left: -100px;
 }
 
 @media only screen and (min-width: 768px) {
