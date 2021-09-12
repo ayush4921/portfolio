@@ -136,11 +136,9 @@ h3 a:hover {
 
 .art-me {
   display: none;
-  height: 650px;
-  margin-left: -100px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 850px) {
   .big-title {
     font-size: 3.5em;
   }
@@ -149,6 +147,8 @@ h3 a:hover {
   }
   .art-me {
     display: block;
+    height: 400px;
+    margin-left: -100px;
   }
   #home {
     flex-direction: row;
@@ -165,7 +165,9 @@ h3 a:hover {
 }
 
 @media only screen and (min-width: 1000px) {
-  #home {
-    gap: 10%;
+  .art-me {
+    display: block;
+    height: 650px;
+    margin-left: -100px;
   }
 }
