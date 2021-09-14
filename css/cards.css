@@ -151,5 +151,15 @@
   flex-direction: column;
   -webkit-transform: translateZ(50px);
   transform: translateZ(50px);
-  text-shadow: 0px 0px 2px black;
+  background-color: rgba(0, 0, 0, 0.3); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  height: 100%;
 }
