@@ -11,12 +11,16 @@ em {
   margin-top: 50px;
   height: fit-content;
   height: -moz-fit-content;
+  display:grid;
+  grid-template-columns: repeat(2, 3fr);
 }
 
 .card {
   display: inline-flex;
   flex-direction: column;
   color: #1d263b;
+  margin: 0 auto 2em auto;
+
 }
 
 .card:not(:last-child) {
