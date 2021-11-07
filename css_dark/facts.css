@@ -12,16 +12,6 @@
   justify-content: space-between;
   min-height: 100vh;
 }
-@media only screen and (max-width: 600px) {
-  #home {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 100vh;
-  }
-}
 .landing-page-details {
   margin: auto 0;
   display: flex;
@@ -51,11 +41,10 @@
 .big-title {
   margin: 0;
   text-align: left;
-  font-weight: 700;
-  font-size: 2.75em;
+  font-weight: 300;
+  font-size: 1.4em;
   letter-spacing: 0;
 }
-
 .my-name {
   letter-spacing: 0.1em;
   font-family: "Fira Code", monospace;
@@ -67,7 +56,7 @@ h3 {
 }
 
 h3 em {
-  color: #1d263b;
+  color: white;
   letter-spacing: 0.05em;
 }
 
@@ -136,9 +125,11 @@ h3 a:hover {
 
 .art-me {
   display: none;
+  height: 500px;
+  margin-top: -200px;
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 768px) {
   .big-title {
     font-size: 3.5em;
   }
@@ -147,8 +138,6 @@ h3 a:hover {
   }
   .art-me {
     display: block;
-    height: 400px;
-    margin-left: -100px;
   }
   #home {
     flex-direction: row;
@@ -165,9 +154,7 @@ h3 a:hover {
 }
 
 @media only screen and (min-width: 1000px) {
-  .art-me {
-    display: block;
-    height: 650px;
-    margin-left: -100px;
+  #home {
+    gap: 10%;
   }
 }

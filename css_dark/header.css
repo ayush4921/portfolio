@@ -14,7 +14,7 @@ header {
   height: 70px;
   padding: 0 15px;
   z-index: 999;
-  background-color: #ffffff;
+  background-color: #1d263b;
 }
 
 .header-logo {
@@ -81,7 +81,7 @@ header {
     position: relative;
     align-items: center;
     flex-direction: row;
-    background-color: white;
+    background-color: #1d263b;
     height: fit-content;
     height: -moz-fit-content;
   }
@@ -95,7 +95,7 @@ header {
   .nav-item a {
     width: fit-content;
     width: -moz-fit-content;
-    color: #1d263b;
+    color: #ffffff;
   }
   .toggle {
     display: none;

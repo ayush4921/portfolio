@@ -5,12 +5,12 @@
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #1d263b;
+  color: #ffffff;
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #1d263b;
 }
 
 h1,
@@ -73,7 +73,6 @@ ul {
   padding: 0 25px;
   text-align: center;
   max-width: 1600px;
-  min-height: 100vh;
 }
 
 section {

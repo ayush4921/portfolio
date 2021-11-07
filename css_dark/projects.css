@@ -20,7 +20,7 @@ em {
   flex-direction: column;
   color: #1d263b;
   margin: 0 auto 2em auto;
-  border: 1px solid #1d263b;
+
 }
 
 .card:not(:last-child) {
@@ -71,11 +71,6 @@ em {
   color: #f08cae;
   font-size: 1.2em;
   transition: all 0.2s ease;
-}
-
-.card img{
-  width: 100%;
-  height: auto;
 }
 
 .project-links a i:hover {
