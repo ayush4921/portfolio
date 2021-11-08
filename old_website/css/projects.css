@@ -20,6 +20,7 @@ em {
   flex-direction: column;
   color: #1d263b;
   margin: 0 auto 2em auto;
+  border: 1px solid #1d263b;
 }
 
 .card:not(:last-child) {
@@ -37,8 +38,6 @@ em {
   padding: 25px;
   background-color: #ffffff;
   border-radius: 0 0 10px 10px;
-  width: 100%;
-  height: 100%;
 }
 
 .has-no-preview .card-info {
@@ -108,7 +107,6 @@ em {
 
 .project-description {
   color: #1d263b;
-  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -116,12 +114,4 @@ em {
     column-count: 2;
     column-gap: 2em;
   }
-}
-@media only screen and (max-width: 768px) {
-  .project-cards-container {
-    column-count: 1;
-    grid-template-columns: repeat(1, 3fr);
-
-  }
-
 }

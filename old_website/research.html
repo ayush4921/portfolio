@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Research ~ Ayush Garg</title>
+    <meta charset="UTF-8" />
+
+    <meta property="og:title" content="Ayush Garg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://gargayush.com/about" />
+    <meta
+      property="og:description"
+      content="Ayush Garg is a passionate developer who has keen interests in scientific research, especially in the open science sphere."
+    />
+    <meta property="og:locale" content="en_US" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ayush Garg, ayush@science.org.in" />
+    <meta name="copyright" content="Ayush Garg" />
+    <meta
+      name="description"
+      content="Ayush Garg is a passionate developer who has keen interests in scientific research, especially in the open science sphere.
+      He is the author of multiple scientific libraries,
+      including pygetpapers and docanalysis. With more
+      than 600 contributions to open source projects in the last
+      year alone,
+      Ayush is determined to advocate for free speech,
+      democratic values and the cooperative progress of
+      humanity."
+    />
+    <meta
+      name="keywords"
+      content="Ayush Garg,ayush garg, ayush,Ayush Garg Portfolio, Ayush Garg Photography, photographer, developer, java, python, html, css, javascript, web developer, pygetpapers"
+    />
+
+    <link rel="canonical" href="https://gargayush.com/about" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <link rel="stylesheet" href="./css/header.css" type="text/css" />
+    <link rel="stylesheet" href="./css/about.css" type="text/css" />
+    <link rel="stylesheet" href="./css/footer.css" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  </head>
+
+  <body>
+    <!-- partial:index.partial.html -->
+    <div id="particles-js"></div>
+
+    <!-- partial -->
+    <header class="header">
+      <a href="/" class="header-logo">Home</a>
+      <nav class="nav">
+        <div class="toggle"><i class="fas fa-bars"></i></div>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="/about.html">About</a></li>
+<li class="nav-item"><a href="/research.html">Research</a></li>
+          <li class="nav-item"><a href="/projects.html">Projects</a></li>
+        <li class="nav-item"><a href="/talks.html">Expert talks</a></li>    
+          <li class="nav-item"><a href="/videos.html">Videos</a></li>
+<li class="nav-item"><a href="/facts.html">Cool Facts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-container about-section">
+      <section id="tech-stack">
+        <h3>Research Areas</h3>
+        <div class="tech-stack-container">
+          <div class="skill">
+            <img src="./img/bioinformatics.png" alt="Python Icon" style="width: 25px;height: 25px;"/><span>Bioinformatics</span>
+          </div>
+          <div class="skill">
+            <img src="./img/vision.png" alt="Python Icon" style="width: 25px;height: 25px;"/><span>Computer Vision</span>
+          </div>
+          <div class="skill">
+            <img src="./img/text-mining.png" alt="Python Icon" style="width: 25px;height: 25px;"/><span>Text mining</span>
+          </div>
+        </div>
+      </section>
+      <section id="profile">
+        <br /><br />
+        <div class="page-title">
+          <h2><a class="pink"href="https://github.com/petermr/pygetpapers">pygetpapers</a></h2>
+        </div>
+        <p class="section-description">
+            An increasing amount of research, particularly in medicine and applied science, is now based on meta-analysis and sytematic review of the existing literature (<a href="https://systematicreviewsjournal.biomedcentral.com/" style="text-decoration: underline;">example</a>). In such reviews scientists frequently download thousands of articles and analyse them by Natural Language Processing (NLP) through Text and Data Mining (TDM) or Content Mining (ref). A common approach is to search bibliographic resources with keywords, download the hits, scan then manually and reject papers that do not fit the criteria for the meta-analysis. The typical text-based searches on sites are broad, with many false positives and often only based on abstracts. We know of cases where systematic reviewers downloaded 30,000 articles and eventually used 30. Retrieval is often done by crawling / scraping sites, such as journals but is easier and faster when these articles are in Open Access repositories such as arXiv, Europe/PMC biorxiv, medrxiv. But each repository has its own API and functionality, which makes it hard for individuals to (a) access (b) set flags (c) use generic queries.
+<BR><BR>
+In 2015 we reviewed tools for scraping websites and decided that none met our needs and so developed getpapers, with the key advance of integrating a query submission with bulk fulltext-download of all the hits. getpapers was written in NodeJs and has now been completely rewritten in Python3 (pygetpapers) for easier distribution and integration. Typical use of getpapers is shown in a <a href="https://europepmc.org/article/MED/33916878" style="text-decoration: underline;">recent paper</a> where the authors "analyzed key term frequency within 20,000 representative [Antimcrobial Resistance] articles".
+<br><br><br>
+<a href="https://en.wikipedia.org/wiki/Peter_Murray-Rust"><img class="img_person" src="./images/peter_murray.jpeg" style="height: 200px;padding: 10px;padding-left: 0px;"></a>
+            
+</p>
+        <br />
+            
+
+        <div class="page-title">
+            <h2><a class="pink"href="https://github.com/petermr/docanalysis">docanalysis</a></h2>
+        </div>
+        <p class="section-description">
+            Unsupervised entity extraction from sections of papers that have defined boilerplates. Examples of such sections include - Ethics Statements, Funders, Acknowledgments, and so on.
+            <br><br>
+            Primary Purpose:<br><br>
+            Extracting Ethics Committees and other entities related to Ethics Statements from papers<br>
+            Curating the extracted entities to public databases like Wikidata<br>
+            Building a feedback loop where we go from unsupervised entity extraction to curating the extracted information in public repositories to then, supervised entity extraction.
+            <br><br>
+            Subsidary Purpose(s):<br><br>
+            The use case can go beyond Ethics Statements. docanalysis is a general package that can extract relevant entities from the section of your interest.
+            <br>
+            Sections like Acknowledgements, Data Availability Statements, etc., all have a fairly generic sentence structure. All you have to do is create an ami dictionary that contains boilerplates of the section of your interest. You can, then, use docanalysis to extract entities. Check this <a href="https://github.com/petermr/docanalysis#What is-a-dictionary" style="text-decoration: underline;">section</a> which outlines steps for creating custom dictionaries. In case of acknowledgements or funding, you might be interested in the players involved. Or you might have a use-case which we might have never thought of!
+            <br><br><br>
+           <a href="https://github.com/Daniel-Mietchen"><img class="img_person" src="./images/daniel.jpg" style="height: 200px;padding: 10px;padding-left: 0;"></a> <a href="https://github.com/ShweataNHegde/"><img class="img_person" src="./images/shweata.jpg" style="height: 200px;padding: 10px;"></a><a href="https://en.wikipedia.org/wiki/Peter_Murray-Rust"><img class="img_person" src="./images/peter_murray.jpeg" style="height: 200px;padding: 10px;"></a>
+        </p>
+        <br /><br>
+
+        <div class="page-title">
+            <h2><a class="pink"href="https://devpost.com/software/sutdresearchhack2020">Congestion Analysis</a></h2>
+        </div>
+        <p class="section-description">
+            This project analyzes the effect of changing certain traffic conditions on the formation of congestion
+            In order to simulate the traffic, we utilized Monte Carlo simulations to simulate a sense of randomness on the road
+            We added functionality like the creation of junctions, the widening of roads, etc. to see how they would impact the congestion on the roads
+            <br><br>
+            This project received the 3rd position in the research hackathon
+        </p>
+        <br /><br>
+    
+      </section>
+
+      <br /><br />       
+
+    </main>
+    <script src="./script.js"></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
