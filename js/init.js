@@ -44,7 +44,7 @@ function tokyo_tm_menu(){
 	
 	"use strict";
 	
-	var list	 = jQuery('.tokyo_tm_all_wrap .leftpart .menu ul li,.tokyo_tm_mobile_menu .menu ul li,.nav-menu li');
+	var list	 = jQuery('.tokyo_tm_all_wrap .leftpart .menu ul li,.tokyo_tm_mobile_menu .menu ul li,.nav-menu li,.menu-works');
 	var vContent = jQuery('.tokyo_tm_all_wrap');
 	var vSection = jQuery('.tokyo_tm_section');
 	
