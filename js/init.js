@@ -50,7 +50,7 @@ function redirect_url() {
 	var vContent = jQuery('.tokyo_tm_all_wrap');
 
 	var parentLi = jQuery(`a[href="${lastSegment}"]`).parent();
-	if (lastSegment != "#home") {
+	if (lastSegment != "#home" && lastSegment.startsWith("#")) {
 		vSection.removeClass('active');
 		list.removeClass('active');
 		parentLi.addClass('active');
