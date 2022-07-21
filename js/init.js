@@ -47,7 +47,6 @@ function redirect_url() {
 
 	var vSection = jQuery('.tokyo_tm_section');
 	const lastSegment = url.split("/").pop();
-	alert(lastSegment);
 	var vContent = jQuery('.tokyo_tm_all_wrap');
 
 	var parentLi = jQuery(`a[href="${lastSegment}"]`).parent();
